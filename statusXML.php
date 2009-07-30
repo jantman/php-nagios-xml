@@ -5,9 +5,9 @@
 //   of status info in a web page served from a separate machine.
 //
 // +----------------------------------------------------------------------+
-// | PHP EMS Tools      http://www.php-ems-tools.com                      |
+// | XML Final Project      http://xmlfinal.jasonantman.com               |
 // +----------------------------------------------------------------------+
-// | Copyright (c) 2006, 2007 Jason Antman.                               |
+// | Copyright (c) 2009 Jason Antman.                                     |
 // |                                                                      |
 // | This program is free software; you can redistribute it and/or modify |
 // | it under the terms of the GNU General Public License as published by |
@@ -26,10 +26,13 @@
 // | 59 Temple Place - Suite 330                                          |
 // | Boston, MA 02111-1307, USA.                                          |
 // +----------------------------------------------------------------------+
+// |Please use the above URL for bug reports and feature/support requests.|
+// +----------------------------------------------------------------------+
 // | Authors: Jason Antman <jason@jasonantman.com>                        |
 // +----------------------------------------------------------------------+
-//      $Id: statusXML.php,v 1.6 2009/02/07 03:32:14 jantman Exp $
-//      $Source: /usr/local/cvsroot/admin-portal/nagios/statusXML.php,v $
+// | $LastChangedRevision::                                             $ |
+// | $HeadURL::                                                         $ |
+// +----------------------------------------------------------------------+
 
 $statusFile = "/usr/local/nagios/var/status.dat";
 
