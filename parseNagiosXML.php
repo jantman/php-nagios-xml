@@ -1,6 +1,12 @@
 <?php
   /*
    * +----------------------------------------------------------------------+
+   * | parseNagiosXML.php                                                   |
+   * | PHP script to parse statusXML.php XML output and show as a HTML table|
+   * |                                                                      |
+   * | The canonical source for this project is:                            |
+   * |   <http://svn.jasonantman.com/nagios-xml/> (via SVN or HTTP)         |
+   * +----------------------------------------------------------------------+
    * | Copyright (c) 2006-2010 Jason Antman.                                |
    * |                                                                      |
    * | This program is free software; you can redistribute it and/or modify |
@@ -22,13 +28,15 @@
    * +----------------------------------------------------------------------+
    * | Authors: Jason Antman <jason@jasonantman.com>                        |
    * +----------------------------------------------------------------------+
+   * | CHANGELOG:                                                           |
+   * | 2010-08-10 (r6) jantman:                                             |
+   * |   - updated license, file header, changelog                          |
+   * +----------------------------------------------------------------------+
+   * | $Date::                                                            $ |
    * | $LastChangedRevision::                                             $ |
    * | $HeadURL::                                                         $ |
    * +----------------------------------------------------------------------+ 
    */
-
-
-// parses Nagios output from XML generator on MON1 into HTML
 
 // PARSE IT
 $doc = new DOMDocument();

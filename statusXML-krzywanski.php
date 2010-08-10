@@ -1,7 +1,14 @@
 <?php
+
   /*
    * +----------------------------------------------------------------------+
-   * | Copyright (c) 2006-2010 Jason Antman.                                |
+   * | statusXML-krzywanski.php                                             |
+   * | statusXML.php (r1?) modified to allow selection of returned keys     |
+   * |                                                                      |
+   * | The canonical source for this project is:                            |
+   * |   <http://svn.jasonantman.com/nagios-xml/> (via SVN or HTTP)         |
+   * +----------------------------------------------------------------------+
+   * | Copyright (c) 2006-2010 Jason Antman, Artur Krzywański.              |
    * |                                                                      |
    * | This program is free software; you can redistribute it and/or modify |
    * | it under the terms of the GNU General Public License as published by |
@@ -23,10 +30,18 @@
    * | Authors: Jason Antman <jason@jasonantman.com>                        |
    * |          Artur Krzywański <http://www.krzywanski.net/>               |
    * +----------------------------------------------------------------------+
+   * | CHANGELOG:                                                           |
+   * | 2010-08-10 (r6) jantman:                                             |
+   * |   - updated license, file header, changelog                          |
+   * | 2010-02-21 (r5) jantman:                                             |
+   * |   - included this file with Artur's changes                          |
+   * +----------------------------------------------------------------------+
+   * | $Date::                                                            $ |
    * | $LastChangedRevision::                                             $ |
    * | $HeadURL::                                                         $ |
    * +----------------------------------------------------------------------+ 
    */
+
 
 $statusFile = "/usr/local/nagios/var/log/status.log";
 

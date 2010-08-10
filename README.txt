@@ -1,5 +1,6 @@
 nagiosXML - README
 
+$Date$
 $LastChangedRevision$
 $HeadURL$
 
@@ -16,6 +17,18 @@ You can also view via ViewVC at:
 =====ABOUT=====
 This is a script that parses the Nagios status.dat file into an array, and
 then outputs that array as XML.
+
+=====LICENSE=====
+
+This project is licensed under the GNU General Public License (GPL) version
+3 with the *ADDITIONAL CONDITIONS* (Article 7, terms b) and c)) that existing
+copyright notices and author attributions must be left intact, and that any
+modifications must be clearly noted in the CHANGELOG portion of the
+corresponding file. 
+
+Furthermore, it is politely requested (but not required) that any
+modifications be sent back to the original author for inclusion in the latest
+version of the code.
 
 =====COMPONENTS=====
 statusXML.php.inc - the include file. This is just made up of functions that
@@ -42,11 +55,14 @@ Whitham D. Reeve II of General Communication, Inc. <http://www.gci.com> - PHP mo
 
 =====CHANGELOG=====
 
-2010-02-21 (r5):
+2010-08-10 (r6) jantman:
+	- added better headers to all files, updated license
+
+2010-02-21 (r5) jantman:
 	- broke out functions into statusXML.php.inc, handler/XML output in
 	   statusXML.php
 	- Added statusXML-krzywanski.php, modified version of r4 statusXML.php
 	- Added php_module/ by Whitham D. Reeve II
 
-2009-07-30 (r4):
+2009-07-30 (r4) jantman:
 	- initial creation and import into SVN.

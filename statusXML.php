@@ -1,5 +1,12 @@
 <?php
+
   /*
+   * +----------------------------------------------------------------------+
+   * | statusXML.php                                                        |
+   * | PHP example script showing use of statusXML.php.inc                  |
+   * |                                                                      |
+   * | The canonical source for this project is:                            |
+   * |   <http://svn.jasonantman.com/nagios-xml/> (via SVN or HTTP)         |
    * +----------------------------------------------------------------------+
    * | Copyright (c) 2006-2010 Jason Antman.                                |
    * |                                                                      |
@@ -22,10 +29,16 @@
    * +----------------------------------------------------------------------+
    * | Authors: Jason Antman <jason@jasonantman.com>                        |
    * +----------------------------------------------------------------------+
+   * | CHANGELOG:                                                           |
+   * | 2010-08-10 (r6) jantman:                                             |
+   * |   - updated license, file header, changelog                          |
+   * +----------------------------------------------------------------------+
+   * | $Date::                                                            $ |
    * | $LastChangedRevision::                                             $ |
    * | $HeadURL::                                                         $ |
    * +----------------------------------------------------------------------+ 
    */
+
 
 // this script mines data from the status.dat of a Nagios 2.x installation
 require_once("statusXML.php.inc");

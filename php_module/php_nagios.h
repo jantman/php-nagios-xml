@@ -1,6 +1,12 @@
-
+#
 # +----------------------------------------------------------------------+
-# | Copyright (c) 2006-2010 Jason Antman.                                |
+# | php_module/php_nagios.h                                              |
+# |                                                                      |
+# | PHP Module based on Jason Antman's statusXML.php                     |
+# |                                                                      |
+# | The canonical source for this project is:                            |
+# |   <http://svn.jasonantman.com/nagios-xml/> (via SVN or HTTP)         |
+# +----------------------------------------------------------------------+
 # |                                                                      |
 # | This program is free software; you can redistribute it and/or modify |
 # | it under the terms of the GNU General Public License as published by |
@@ -20,7 +26,15 @@
 # | Boston, MA 02111-1307, USA.                                          |
 # +----------------------------------------------------------------------+
 # | Authors: Whitham D. Reeve II of General Communication, Inc.          |
+# |                 <http://www.gci.com>                                 |
 # +----------------------------------------------------------------------+
+# | CHANGELOG:                                                           |
+# | 2010-08-10 (r6) jantman:                                             |
+# |   - updated license, file header, changelog                          |
+# | 2010-02-22 (r5) jantman:                                             |
+# |   - initial import into nagios-xml SVN                               |
+# +----------------------------------------------------------------------+
+# | $Date::                                                            $ |
 # | $LastChangedRevision::                                             $ |
 # | $HeadURL::                                                         $ |
 # +----------------------------------------------------------------------+ 
