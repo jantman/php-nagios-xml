@@ -1,24 +1,12 @@
-nagiosXML - README
+PHP nagiosXML
+=============
 
-$Date$
-$LastChangedRevision$
-$HeadURL$
+This is a PHP script that parses the Nagios status.dat file into an array, and
+then outputs that array as XML. There is also a PHP module written in C to do
+the same task, and based on the same code.
 
-
-by Jason Antman <jason@jasonantman.com>
-<http://www.jasonantman.com>
-<http://blog.jasonantman.com>
-
-The canonical source for this script and related files is:
-<http://svn.jasonantman.com/nagios-xml/> (via SVN or HTTP)
-You can also view via ViewVC at:
-<http://viewvc.jasonantman.com/cgi-bin/viewvc.cgi/nagios-xml/>
-
-=====ABOUT=====
-This is a script that parses the Nagios status.dat file into an array, and
-then outputs that array as XML.
-
-=====LICENSE=====
+License
+--------
 
 This project is licensed under the GNU General Public License (GPL) version
 3 with the *ADDITIONAL CONDITIONS* (Article 7, terms b) and c)) that existing
@@ -30,7 +18,8 @@ Furthermore, it is politely requested (but not required) that any
 modifications be sent back to the original author for inclusion in the latest
 version of the code.
 
-=====COMPONENTS=====
+Components
+-----------
 statusXML.php.inc - the include file. This is just made up of functions that
 do all of the heavy lifting.
 
@@ -38,7 +27,8 @@ statusXML.php - a script that shows how to make use of the functions in
 statusXML.php.inc to output XML. You may as well replicate this simple logic
 in your program.
 
-=====OTHER FILES=====
+Other Files
+------------
 statusXML-krzywanski.php - Artur Krzywański's patch to allow selection of what
 keys you want returned. This is currently included as a separate file because
 it is based off of SVN revision 4, which supports Nagios2 only. When I have
@@ -48,12 +38,24 @@ php_module/ - This code rewritten in C as a PHP module for high
 performance. Generously coded by Whitham D. Reeve II of General Communication,
 Inc. <http://www.gci.com>. Also currently only supports Nagios2.
 
-=====AUTHORSS=====
+Source
+-------
+
+The current canonical source of the newest version of this project is GitHub,
+specifically <https://github.com/jantman/php-nagios-xml>. Prior to March 2013,
+the canonical source of this project was via SVN at
+<http://svn.jasonantman.com/nagios-xml/> or via the ViewVC web interface at
+<http://viewvc.jasonantman.com/cgi-bin/viewvc.cgi/nagios-xml/>. Going forward,
+the only online source will be at GitHub, specifically <>.
+
+Authors
+--------
 Jason Antman <http://www.jasonantman.com> - principal author
 Artur Krzywański <http://www.krzywanski.net/> - patch for selection of returned keys
 Whitham D. Reeve II of General Communication, Inc. <http://www.gci.com> - PHP module
 
-=====CHANGELOG=====
+Changelog
+----------
 
 2010-08-10 (r6) jantman:
 	- added better headers to all files, updated license
