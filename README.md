@@ -5,6 +5,16 @@ This is a PHP script that parses the Nagios status.dat file into an array, and
 then outputs that array as XML. There is also a PHP module written in C to do
 the same task, and based on the same code.
 
+**Note** - While it seems that quite a few people are using this, XML really
+  is an awful, 1990s technology. There are two nice, modern alternatives to
+  the script here:
+* [Icinga](https://www.icinga.org/), a fork of Nagios, provides a modern REST
+  API.
+* [Christian Lizell's
+  statusJson.php](https://github.com/lizell/php-nagios-json) does more or less
+  the same thing as this script (I've not tested it), but returns nice, happy
+  JSON output instead of ugly XML.
+
 License
 --------
 
@@ -46,7 +56,7 @@ specifically <https://github.com/jantman/php-nagios-xml>. Prior to March 2013,
 the canonical source of this project was via SVN at
 <http://svn.jasonantman.com/nagios-xml/> or via the ViewVC web interface at
 <http://viewvc.jasonantman.com/cgi-bin/viewvc.cgi/nagios-xml/>. Going forward,
-the only online source will be at GitHub, specifically <>.
+the only online source will be at GitHub.
 
 Authors
 --------
