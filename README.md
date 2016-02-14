@@ -1,17 +1,22 @@
 PHP nagiosXML
 =============
 
-[![Project Status: Inactive - The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/0.1.0/inactive.svg)](http://www.repostatus.org/#inactive)
+[![Project Status: Abandoned – Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development.](http://www.repostatus.org/badges/latest/abandoned.svg)](http://www.repostatus.org/#abandoned)
 
 This is a PHP script that parses the Nagios status.dat file into an array, and
 then outputs that array as XML. There is also a PHP module written in C to do
 the same task, and based on the same code.
 
 **Note** - While it seems that quite a few people are using this, XML really
-  is an awful, 1990s technology. There are two nice, modern alternatives to
-  the script here:
+  is an awful, 1990s technology. I also have not tested this with Nagios3, or
+  really with any Nagios version that came out in the past *six years*. If you've
+  found this, I would *highly* recommend one of the following alternatives:
+* [nagios-api](https://github.com/zorkian/nagios-api) provides a read/write ReST
+  API for Nagios. It can be made read-only, in which case it just provides a
+  ReST API to ``status.dat``.
 * [Icinga](https://www.icinga.org/), a fork of Nagios, provides a modern REST
-  API.
+  API built-in. It's also actively developed in the open, and welcomes community
+  contributions, [unlike Nagios](http://www.freesoftwaremagazine.com/articles/nagios_and_icinga).
 * [Christian Lizell's
   statusJson.php](https://github.com/lizell/php-nagios-json) does more or less
   the same thing as this script (I've not tested it), but returns nice, happy
@@ -24,7 +29,7 @@ This project is licensed under the GNU General Public License (GPL) version
 3 with the *ADDITIONAL CONDITIONS* (Article 7, terms b) and c)) that existing
 copyright notices and author attributions must be left intact, and that any
 modifications must be clearly noted in the CHANGELOG portion of the
-corresponding file. 
+corresponding file.
 
 Furthermore, it is politely requested (but not required) that any
 modifications be sent back to the original author for inclusion in the latest
